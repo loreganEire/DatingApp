@@ -4,11 +4,11 @@ import { AlertifyService } from '../../_services/alertify.service';
 import { UserService } from '../../_services/user.service';
 
 @Component({
-  selector: 'app-memeber-list',
-  templateUrl: './memeber-list.component.html',
-  styleUrls: ['./memeber-list.component.css']
+  selector: 'app-member-list',
+  templateUrl: './member-list.component.html',
+  styleUrls: ['./member-list.component.css']
 })
-export class MemeberListComponent implements OnInit {
+export class MemberListComponent implements OnInit {
   users: User[];
 
   constructor(private userService: UserService, private alertify: AlertifyService) { }
